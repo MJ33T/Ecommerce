@@ -52,6 +52,9 @@
         margin: 20px;
         padding-left: 100px;   
     }
+    .detail-img{
+        height: 200px
+    }
 
     
 
