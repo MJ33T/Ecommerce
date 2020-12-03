@@ -50,9 +50,11 @@
     }
     .trending-wrapper{
         margin: 20px;
-        padding-left: 100px;
-           
+        padding-left: 100px;   
     }
+
+    
+
 
 </style>
 </html>
