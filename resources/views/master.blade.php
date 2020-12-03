@@ -25,8 +25,8 @@
 </body>
 <style>
     .custom-login{
-        height: 480px;
-        padding-top: 90px; 
+        height: 530px;
+        padding-top: 100px; 
     }
     .custom-footer{
         text-align: center;
