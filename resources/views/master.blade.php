@@ -29,8 +29,18 @@
         padding-top: 100px; 
     }
     .custom-footer{
-        text-align: center;
-        
+        text-align: center;   
     }
+    img.slider-img{
+        height: 400px !important;
+        padding: 0px 500px;  
+    }
+    .custom-product{
+        height: 530px;
+    }
+    .slider-text{
+        background-color: #373a364a !important;
+    }
+
 </style>
 </html>
