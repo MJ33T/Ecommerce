@@ -63,6 +63,10 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     }
+    .table.table-striped, .custom-form{
+        margin-top: 20px;
+        margin-left: 350px;
+    }
 
 </style>
 </html>
