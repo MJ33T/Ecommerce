@@ -24,15 +24,16 @@
                 </tbody>
               </table>
 
-              <form class="custom-form" action="">
+              <form class="custom-form" action="order_place" method="POST">
+                @csrf
                 <div class="form-group">
-                  <textarea class="form-control" placeholder="Address"></textarea>
+                  <textarea class="form-control" name="address" placeholder="Enter Your Address"></textarea>
                 </div>
                 <div class="form-group">
                   <label for="">Payment Method</label>
-                  <p><input type="radio" name="payment"><span> Online Payment</span></p>
-                  <p><input type="radio" name="payment"><span> EMI Payment</span></p>
-                  <p><input type="radio" name="payment"><span> Payment on Delivary</span></p>
+                  <p><input value="online" type="radio" name="payment"><span> Online Payment</span></p>
+                  <p><input value="emi" type="radio" name="payment"><span> EMI Payment</span></p>
+                  <p><input value="cash" type="radio" name="payment"><span> Payment on Delivary</span></p>
                 </div>
                 <button type="submit" class="btn btn-default">Order Now</button>
               </form>
